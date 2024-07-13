@@ -1,0 +1,47 @@
+body {
+    background-image: url('/assets/devansh.jpg');
+}
+
+.calculator {
+    border: 2px solid #ced4da;
+    border-radius: 0.25rem;
+    width: 350px;
+    margin: 50px auto;
+}
+
+.display {
+    height: 60px;
+    background-color: #343a40;
+    color: rgb(212, 212, 212);
+    font-size: 2rem;
+    text-align: right;
+    padding: 10px;
+    border-radius: 0.25rem;
+    margin-bottom: 10px;
+    
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.buttons .btn {
+    font-size: 1.5rem;
+    height: 50px;
+}
+
+.btn-primary {
+    grid-column: span 2;
+}
+
+#delete{
+    background-color: red;
+    border: 0;
+}
+
+#AC{
+    background-color: blue;
+    border: 0;
+}
